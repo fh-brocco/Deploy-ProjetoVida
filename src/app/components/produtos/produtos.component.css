@@ -1,0 +1,180 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css";
+
+.underline{
+    height: 3px;
+    width: 100px;
+    background-color: #53a1eb;
+}
+
+.btn:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.btn-primary{
+    background-color: #e0f7f280!important;
+    border: none;
+}
+
+.btn-1{
+    background-color: #33cabb !important;
+    border: none;
+}
+
+.btn-1:hover{
+    background-color: #33cabb!important;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #33cabb!important;
+    color: #f6f3f7!important;
+}
+
+.bg{
+    background: #f6f3f7 ;
+}
+
+.container{
+    margin-top: 110px !important;
+}
+
+.card{
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card1{
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+} 
+
+.text1{
+    font-size: 13px;
+    color: #cbcbcb;
+}
+
+.info{
+    line-height: 17px;
+}
+
+.star{
+    color: #fbc02d;
+}
+
+.preco span{
+    color: #33cabb;
+    font-weight: bold;
+}
+
+.carrinho{
+    background: #33cabb;
+    text-decoration: none;
+}   
+
+.carrinho:hover{
+    opacity: .8;
+}
+
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.espaco{
+    margin-bottom: 10px;
+}
+
+.esquerda{
+    margin-left: 50px;
+}
+
+  .searchBox {
+    color: #33cabb;
+  }
+
+  .searchText{
+    margin-left: 315px;
+    margin-bottom: 10px;
+  }
+
+  .searchBar{width: 50%; /* define a largura do campo */ 
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+    align-items: center;
+    margin-left: 270px;
+  }
+
+  .text-uppercase{
+    text-decoration: none;
+    color: white;
+  }
+
+  label {display:block;} 
+  input,  button {padding: 10px;}
+
+  .text-uppercase{
+    text-decoration: none;
+    color: white; 
+  } 
+
+  .box{
+    display:inline-block ;
+  }
+
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.cont {
+	max-width: 400px;
+	margin: 0 auto;
+	
+}
+
+.f1{
+    color: black;
+} 
+
+.txt{
+    color: red;
+    }
+
+    .img{
+        max-height: 100px;
+        max-width: 150px;
+        justify-content: center;
+    }
